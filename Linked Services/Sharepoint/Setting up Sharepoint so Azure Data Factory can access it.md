@@ -38,12 +38,13 @@ To grant your registered application the required permissions on SharePoint Onli
 2. Grab your Application ID from the Service Principal, and complete the necessary fields, and click "Create":
 
 <p align="center">
-    <img src="../../images/adf-sharepoint-link-step2.png" alt="The Linked Service in Azure Data Factory has successfully connected to SharePoint Online" style="width:75%" text-align="center">
+    <img src="../../images/adf-sharepoint-link-step2.png" alt="The SharePoint App Registration page" style="width:75%" text-align="center">
 </p>
 
-App Domain: contoso.com
-Redirect URL: https://www.contoso.com
-Permission Request XML: Input the following XML to request the necessary permissions:
+Settings for App registration:
+- App Domain: contoso.com
+- Redirect URL: https://www.contoso.com
+- Permission Request XML: Input the following XML to request the necessary permissions:
 
 ```
 <AppPermissionRequests AllowAppOnlyPolicy="true">
