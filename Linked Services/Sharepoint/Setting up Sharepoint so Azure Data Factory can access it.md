@@ -33,12 +33,12 @@ Disconnect-SPOService
 ### Step 2: Authorize Your Registered Application
 To grant your registered application the required permissions on SharePoint Online:
 
-1. Navigate to the SharePoint Online site permissions page at `https://[your_tenant].sharepoint.com/_layouts/15/appinv.aspx` (replace [your_site_url] with your actual site URL).
+1. Navigate to the SharePoint Online site permissions page at ```https://[your_tenant].sharepoint.com/_layouts/15/appinv.aspx``` (replace [your_tenant] with your actual site URL).
 
 2. Grab your Application ID from the Service Principal, and complete the necessary fields, and click "Create":
 
 <p align="center">
-    <img src="../images/adf-sharepoint-link-step2.png" alt="The Linked Service in Azure Data Factory has successfully connected to SharePoint Online" style="width:50%" text-align="center">
+    <img src="../../images/adf-sharepoint-link-step2.png" alt="The Linked Service in Azure Data Factory has successfully connected to SharePoint Online" style="width:75%" text-align="center">
 </p>
 
 App Domain: contoso.com
@@ -57,7 +57,7 @@ It's essential to understand that these modifications may potentially impact you
 Upon completing the previous steps, your Linked Service in Azure Data Factory should now be able to connect to your SharePoint site utilizing the service principal.
 
 <p align="center">
-    <img src="../images/adf-sharepoint-link-step3.png" alt="The Linked Service in Azure Data Factory has successfully connected to SharePoint Online" style="width:50%" text-align="center">
+    <img src="../../images/adf-sharepoint-link-step3.png" alt="The Linked Service in Azure Data Factory has successfully connected to SharePoint Online" style="width:50%" text-align="center">
 </p>
 
 ## Conclusion
